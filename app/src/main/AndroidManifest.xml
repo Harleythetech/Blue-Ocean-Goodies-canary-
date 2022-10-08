@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ict102a.rc01a.blueoceangoodiescanary">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BlueOceanGoodiesCanary"
+        tools:targetApi="31">
+        <activity
+            android:name=".buy_complete"
+            android:exported="false" />
+        <activity
+            android:name=".user"
+            android:exported="false" />
+        <activity
+            android:name=".drinks2"
+            android:exported="false" />
+        <activity
+            android:name=".drinks1"
+            android:exported="false" />
+        <activity
+            android:name=".des2"
+            android:exported="false" />
+        <activity
+            android:name=".des1"
+            android:exported="false" />
+        <activity
+            android:name=".sidedish2"
+            android:exported="false" />
+        <activity
+            android:name=".sidedish1"
+            android:exported="false" />
+        <activity
+            android:name=".mp2"
+            android:exported="false" />
+        <activity
+            android:name=".mp1"
+            android:exported="false" />
+        <activity
+            android:name=".cart"
+            android:exported="false" />
+        <activity
+            android:name=".userinfo"
+            android:exported="false" />
+        <activity
+            android:name=".drinks"
+            android:exported="false" />
+        <activity
+            android:name=".desert"
+            android:exported="false" />
+        <activity
+            android:name=".sidedish"
+            android:exported="false" />
+        <activity
+            android:name=".maindish"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".newuser"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".capmain"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
